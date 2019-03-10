@@ -1,0 +1,133 @@
+ a,h2,h3,h4{
+    font-family: font-farsi !important;
+ }
+ a:hover{
+     text-decoration: none !important;
+ }
+ .nav-link:hover{
+    color: black !important;
+}
+body,html{
+    height: 100%;
+}
+.fas,.far,.material-icons{
+    font-size:6rem;
+}
+@media (max-width:1357px){
+    .fas,.far,.material-icons{
+        font-size:5.3rem;
+    }
+}
+@media (max-width:1327px){
+    .fas,.far,.material-icons{
+        font-size:5rem;
+    }
+}
+@media (max-width:1300px){
+    .fas,.far,.material-icons{
+        font-size:4.8rem;
+    }
+}
+@media (max-width:1285px){
+    .fas,.far,.material-icons{
+        font-size:4.5rem;
+    }
+}
+@media (max-width:1265px){
+    .fas,.far,.material-icons{
+        font-size:4.3rem;
+    }
+}
+@media (max-width:1265px){
+    .fas,.far,.material-icons{
+        font-size:4.1rem;
+    }
+}
+.card-bshadow::after{
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    content: '';
+    background-color: rgba(0,0,0,.3);
+}
+.card-shadow{
+    background-color: rgba(0,0,0,.3) !important;
+}
+.demo-card-square.mdl-card {
+  width: 300px;
+  height: 250px;
+  padding: 0;
+}
+@media (max-width:1200px){
+    .demo-card-square.mdl-card{
+        margin: .5rem 0;
+    }
+    .scrollable .scroll-bar.vertical{
+        right: 12% !important;
+    }
+    .fas,.far{
+        font-size: 7rem;
+    }
+}
+.demo-card-square > .mdl-card__title {
+  color: #fff;
+  background-color: rgba(0,0,0,.3);
+}
+.mdl-card:hover{
+    transition: .2s cubic-bezier(0,.99,1,.01);
+    transform: translateY(-15px);
+}
+.mdl-card{
+    transition: .5s cubic-bezier(0,.99,1,.01);
+    opacity: 1;
+}
+@font-face{
+    src: url('./IRANSans4/WebFonts/fonts/ttf/IRANSansWeb_Medium.ttf');
+    font-family: font-farsi;
+}
+.font-1{
+    font-family: font-farsi;
+}
+.a .shasow-hover:hover{
+    text-shadow: 1px 3px 4px rgb(255, 255, 255);
+}
+.scrollable{
+    overflow-y: hidden; 
+    overflow-x: visible;
+    height: 534px;
+}
+.content{
+    display: none;
+}
+.viewport{
+    width:100% !important;
+}
+.scrollable.default-skin .scroll-bar .thumb{
+    background-color: rgb(134, 134, 134) !important;
+}
+.gg{
+  background-image: url('./normal4.jpg');
+  background-size: 100% 103.6%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.dropdown-arrow::before{
+    content: '';
+    position: absolute;
+    top: -24px;
+    right: 10px;
+    width: 0px;
+    height: 0px;
+    border-left: 10px solid #00000000;
+    border-top: 10px solid #00000000;
+    border-right: 10px solid #00000000;
+    border-bottom: 10px solid #dc3545; 
+}
