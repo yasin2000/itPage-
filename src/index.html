@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>IRTOYA IT Page</title>
+  <link rel="icon" type="image/ico" href="images/download.png" />
+<!--[if IE]>
+<style>
+  .mdl-card__actions.mdl-card--border{
+  background:rgba(0,0,0,.3);
+  }
+  .mdl-card__title.mdl-card--expand{
+    background:rgba(0,0,0,.5) !important;
+  }
+  .mdl-card__title-text{
+    float:right !important;
+    width:40% !important;
+    margin:0 !important;
+  }
+  .mdl-card__title.mdl-card--expand{
+    padding-top:6rem;
+  }
+</style>
+<![endif]-->
+</head>
+
+<body style="overflow-x:hidden;">
+  <div id="random"></div>
+  <div class="container-fluid menu-shadow">
+    <nav class="navbar navbar-expand-lg border-bottom p-0">
+        <div class="menu-icon float-right" style="display:none; width:10%; margin-top:6px;"tabindex="-1">
+          <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" class="svg-inline--fa fa-bars fa-w-14 float-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"></path></svg>
+        </div>  
+      <a class="navbar-brand" href="#"><img src="images/logo_main.png" alt="logo"></a>
+        <ul class="navbar-nav">
+          <!-- dropdown -->
+          <li class="nav-item dropdown">
+              <a class="dropdown-toggle text-white align-items-center mdl-button mdl-js-button mdl-js-ripple-effect"
+                href="#" data-toggle="dropdown">سایر نرم افزار ها<span class="caret"></span></a>
+              <ul class="dropdown-menu dropdown-arrow shadow-lg" style="background-color:#17A589; text-align: right; width: 188px; left:-86%; top: 5rem;">
+                <li class="dropdown-item"><a href="http://it.irtoyaco.com:83/" target="_blank" class="text-white">raytools</a></li>
+                <li class="dropdown-item"><a href="http://intranet.irtoyaco.com/SitePages/Home.aspx" target="_blank" class="text-white" >پرتال سزمانی</a></li>
+                <li class="dropdown-item"><a href="http://it.irtoyaco.com:84/" target="_blank" class="text-white" >cif</a></li>
+                <li class="dropdown-item"><a href="http://ticketing.irtoyaco.com/" target="_blank" class="text-white" >سیستم تیکت</a></li>
+                <li class="dropdown-item"><a href="http://crmapp/Irtoya/main.aspx#824995850" target="_blank" class="text-white">نرم افزار امور مشتریان</a></li>
+                <li class="dropdown-item"><a href="http://internet.irtoyaco.com:8090/" target="_blank" class="text-white" >نرم افزار اکانت اینترنت </a></li>
+                <li class="dropdown-item"><a href="http://it.irtoyaco.com:2021/" target="_blank" class="text-white" >داشبورد مدیریتی</a></li>
+                <li class="dropdown-item"><a  href="http://mobile.irtoya.com/Login.aspx" target="_blank" class="text-white" >نرم افزار موبایل</a></li>
+  
+                <li class="dropdown-item"><a href="http://web-app:8081/login.aspx" target="_blank" class="text-white" >نرم افزار تحویل خودرو</a></li>
+                <li class="dropdown-item"><a href="http://crm-bi.irtoyaco.com/reportsbi" target="_blank" class="text-white" >گزارشات امور مشتریان</a></li>
+                <li class="dropdown-item"><a href="http://eoffice.irtoyaco.com/reports/" target="_blank" class="text-white" >گزارشات حقوق و دستمزد</a></li>
+                <li class="dropdown-item"><a href="http://sql-srv.irtoyaco.com:9876" target="_blank" class="text-white" >نرم افزار کنترل تردد</a></li>
+              </ul>
+            </li>          
+            <!-- dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle align-items-center text-white mdl-button mdl-js-button mdl-js-ripple-effect"
+              href="#" id="navbardrop" data-toggle="dropdown">نرم افزار های کاربردی<span class="caret"></span></a>
+            <ul class="dropdown-menu text-light dropdown-arrow1 shadow-lg" style="background-color: rgb(142, 60, 219); opacity: 1; text-align: right; left:-50%; top: 5rem;">
+              <li class="dropdown-item"><a href="http://rayweb.irtoyaco.com/WebARPGSale/" target="_blank" class="text-white" >گزارشات فروش</a></li>
+              <li class="dropdown-item"><a href="http://eoffice.irtoyaco.com/UserLogin.aspx" target="_blank" class="text-white" >نرم افزار چارگون</a></li>
+              <li class="dropdown-item"><a href="#" data-toggle="modal" data-target="#myModal2" class="text-white">دفترچه تلفن</a></li>
+              <li class="dropdown-item"><a href="http://rayweb.irtoyaco.com/WebARPGfinancial/" target="_blank" class="text-white" >گزارشات مالی</a></li>
+              <li class="dropdown-item"><a href="http://raywebarita.irtoyaco.com/websales/" target="_blank" class="text-white" >فروش اریتا</a></li>
+              <li class="dropdown-item"><a href="http://crm2.irtoyaco.com/CRM2/main.aspx" target="_blank" class="text-white" >crm</a></li>
+              <li class="dropdown-item"><a href="https://exch1.irtoya.com/owa/auth/logon.aspx?replaceCurrent=1&url=https%3a%2f%2fexch1.irtoya.com%2fowa%2f" target="_blank" class="text-white" >ایمیل</a></li>
+              <li class="dropdown-item"><a href="http://rayweb1.irtoyaco.com/websalesirtoya/" target="_blank" class="text-white" >فروش ایرتویا</a></li>
+              </ul>
+          </li>
+          <!-- <li class="nav-item">
+            <a href="#" data-toggle="modal" data-target="#myModal3" class="nav-link text-dark align-items-center mdl-button mdl-js-button mdl-js-ripple-effect">مرکز
+              اطلاعات فنی ایران</a>
+          </li> -->
+          <li class="nav-item main-page">
+              <a class="text-white nav-link align-items-center mdl-button mdl-js-button mdl-js-ripple-effect"
+                href="index.html">صفحه اصلی</a>
+            </li>
+        </ul>
+    </nav>
+  </div>
+  <!-- <div class="container-fluid">
+      <div id="myModal3" class="modal fade" role="dialog">
+          <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                  <div class="modal-header">
+                      <h4 class="modal-title">مرکز اطلاعات فنی ایران</h4>
+                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  </div>
+                  <div class="modal-body">
+                      <iframe id="Frame" width="100%" height="500px" name="Frame" src="http://it.irtoyaco.com:1910/"></iframe>
+                  </div>
+                  <div class="modal-footer">
+                      <button type="button" class="btn btn-danger" data-dismiss="modal">بستن</button>
+                  </div>
+              </div>
+  
+          </div>
+      </div>
+  </div> -->
+  <div class="container-fluid">
+    <div id="myModal2" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">دفترچه تلفن</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <iframe src="http://sql-srv.irtoyaco.com:8082/findphone.aspx" width="100%" height="500px"></iframe>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">بستن</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+  <div class="container-fluid my-5">
+    <div class="row  mainRow">
+      <div class="col-md-8 offset-1 main-soft" style="display:block;">
+        <div class="row my-3 w-100 pag1">
+          <div class="col-lg-3 col-sm-6 px-2">
+          <a href="http://rayweb.irtoyaco.com/WebARPGfinancial/" target="_blank" class="demo-card-square mdl-card mdl-shadow--2dp w-100 card-shadow">
+            <div class="mdl-card__title mdl-card--expand">
+                <svg class="text-danger" style="width:35%;" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chart-pie" class="svg-inline--fa fa-chart-pie fa-w-17" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 544 512"><path fill="currentColor" d="M527.79 288H290.5l158.03 158.03c6.04 6.04 15.98 6.53 22.19.68 38.7-36.46 65.32-85.61 73.13-140.86 1.34-9.46-6.51-17.85-16.06-17.85zm-15.83-64.8C503.72 103.74 408.26 8.28 288.8.04 279.68-.59 272 7.1 272 16.24V240h223.77c9.14 0 16.82-7.68 16.19-16.8zM224 288V50.71c0-9.55-8.39-17.4-17.84-16.06C86.99 51.49-4.1 155.6.14 280.37 4.5 408.51 114.83 513.59 243.03 511.98c50.4-.63 96.97-16.87 135.26-44.03 7.9-5.6 8.42-17.23 1.57-24.08L224 288z"></path></svg>
+              <h2 class="mdl-card__title-text">گزارشات مالی</h2>
+            </div>
+            <div class="mdl-card__actions mdl-card--border">
+              <div class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect text-light">
+                سیستم گزارشات مالی
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-3 col-sm-6 px-2">
+          <a href="#" data-toggle="modal" data-target="#myModal2" target="_blank" class="demo-card-square mdl-card mdl-shadow--2dp w-100 card-shadow">
+            <div class="mdl-card__title mdl-card--expand ">
+                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="phone-square" class="svg-inline--fa text-info fa-phone-square fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M400 32H48C21.49 32 0 53.49 0 80v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48V80c0-26.51-21.49-48-48-48zM94 416c-7.033 0-13.057-4.873-14.616-11.627l-14.998-65a15 15 0 0 1 8.707-17.16l69.998-29.999a15 15 0 0 1 17.518 4.289l30.997 37.885c48.944-22.963 88.297-62.858 110.781-110.78l-37.886-30.997a15.001 15.001 0 0 1-4.289-17.518l30-69.998a15 15 0 0 1 17.16-8.707l65 14.998A14.997 14.997 0 0 1 384 126c0 160.292-129.945 290-290 290z"></path></svg>
+              <h2 class="mdl-card__title-text">دفترچه تلفن</h2>
+            </div>
+            <div class="mdl-card__actions mdl-card--border">
+              <div class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect text-light">
+                جستجوی شماره تلفن
+              </div>
+            </div>
+          </a>
+          </div>
+          <div class="col-lg-3 col-sm-6 px-2">
+          <a href="http://eoffice.irtoyaco.com/UserLogin.aspx" target="_blank" class="demo-card-square mdl-card mdl-shadow--2dp w-100 card-shadow">
+            <div class="mdl-card__title mdl-card--expand ">
+              <img src="images/com.chargoon.didgah_512x512.png" width="100" />
+              <h2 class="mdl-card__title-text align-self-center">نرم افزار چارگون</h2>
+            </div>
+            <div class="mdl-card__actions mdl-card--border">
+              <div data-toggle="tooltip" title="نرم افزار مدیریت اتوماسیون اداری" data-placement="top" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect text-light">
+                نرم افزار چاگون
+            </div>
+            </div>
+          </a>
+          </div>
+          <div class="col-lg-3 col-sm-6 px-2">
+          <a href="http://rayweb.irtoyaco.com/WebARPGSale/" target="_blank" class="demo-card-square mdl-card mdl-shadow--2dp w-100 card-shadow">
+            <div class="mdl-card__title mdl-card--expand ">
+                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chart-bar" class="svg-inline--fa fa-chart-bar fa-w-16 text-primary" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M332.8 320h38.4c6.4 0 12.8-6.4 12.8-12.8V172.8c0-6.4-6.4-12.8-12.8-12.8h-38.4c-6.4 0-12.8 6.4-12.8 12.8v134.4c0 6.4 6.4 12.8 12.8 12.8zm96 0h38.4c6.4 0 12.8-6.4 12.8-12.8V76.8c0-6.4-6.4-12.8-12.8-12.8h-38.4c-6.4 0-12.8 6.4-12.8 12.8v230.4c0 6.4 6.4 12.8 12.8 12.8zm-288 0h38.4c6.4 0 12.8-6.4 12.8-12.8v-70.4c0-6.4-6.4-12.8-12.8-12.8h-38.4c-6.4 0-12.8 6.4-12.8 12.8v70.4c0 6.4 6.4 12.8 12.8 12.8zm96 0h38.4c6.4 0 12.8-6.4 12.8-12.8V108.8c0-6.4-6.4-12.8-12.8-12.8h-38.4c-6.4 0-12.8 6.4-12.8 12.8v198.4c0 6.4 6.4 12.8 12.8 12.8zM496 384H64V80c0-8.84-7.16-16-16-16H16C7.16 64 0 71.16 0 80v336c0 17.67 14.33 32 32 32h464c8.84 0 16-7.16 16-16v-32c0-8.84-7.16-16-16-16z"></path></svg>
+              <h2 class="mdl-card__title-text">گزارشات فروش</h2>
+            </div>
+            <div class="mdl-card__actions mdl-card--border">
+              <div class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect text-light">
+                سیستم گزارشات فروش
+              </div>
+            </div>
+          </a>
+          </div>
+        </div>
+        <div class="row w-100 pag2">
+          <div class="col-lg-3 col-sm-6  px-2">
+          <a href="http://rayweb1.irtoyaco.com/websalesirtoya/" target="_blank" class="demo-card-square mdl-card mdl-shadow--2dp w-100 card-shadow">
+            <div class="mdl-card__title mdl-card--expand ">
+              <img src="images/irtoya.png" width="100" class="ml-2" />
+              <h2 class="mdl-card__title-text">فروش ایرتویا</h2>
+            </div>
+            <div class="mdl-card__actions mdl-card--border">
+              <div class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect text-light text-light">
+                سیستم فروش ایرتویا
+              </div>
+            </div>
+          </a>
+          </div>
+          <div class="col-lg-3 col-sm-6  px-2">
+          <a href="https://exch1.irtoya.com/owa/auth/logon.aspx?replaceCurrent=1&url=https%3a%2f%2fexch1.irtoya.com%2fowa%2f" target="_blank" class="demo-card-square mdl-card mdl-shadow--2dp w-100 card-shadow">
+            <div class="mdl-card__title mdl-card--expand ">
+              <img src="images/Microsoft_Outlook_2013_logo.svg" width="100" />
+              <h2 class="mdl-card__title-text align-self-center mr-3">ایمیل</h2>
+            </div>
+            <div class="mdl-card__actions mdl-card--border">
+              <div class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect text-light">
+                نرم افزار ایمیل
+              </div>
+            </div>
+          </a>
+          </div>
+          <div class="col-lg-3 col-sm-6  px-2">
+          <a href="http://crm2.irtoyaco.com/CRM2/main.aspx" target="_blank" class="demo-card-square mdl-card mdl-shadow--2dp w-100 card-shadow">
+            <div class="mdl-card__title mdl-card--expand ">
+              <img src="images/crm.png" width="100" />
+              <h2 class="mdl-card__title-text align-self-center mr-3">crm</h2>
+            </div>
+            <div class="mdl-card__actions mdl-card--border">
+              <div class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect text-light">
+                مدیریت ارتباط با مشتریان
+              </div>
+            </div>
+          </a>
+          </div>
+          <div class="col-lg-3 col-sm-6  px-2">
+          <a href="http://raywebarita.irtoyaco.com/websales/" target="_blank" class="demo-card-square mdl-card mdl-shadow--2dp w-100 card-shadow">
+            <div class="mdl-card__title mdl-card--expand ">
+              <img src="images/arita.png" width="100" />
+              <h2 class="mdl-card__title-text">فروش اریتا</h2>
+            </div>
+            <div class="mdl-card__actions mdl-card--border">
+              <div class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect text-light">
+                سیستم فروش اریتا
+              </div>
+            </div>
+          </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-8 offset-1 main-soft content">
+        <div class="row my-3 w-100">
+            <div class="col-lg-3 col-sm-6  px-2">
+          <a href="http://ticketing.irtoyaco.com/" target="_blank" class="demo-card-square mdl-card mdl-shadow--2dp w-100 card-shadow">
+            <div class="mdl-card__title mdl-card--expand ">
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100"
+                fill="#345eac" viewBox="0 0 486.982 486.982">
+                <g>
+                  <path
+                    d="M131.35,422.969c14.6,14.6,38.3,14.6,52.9,0l181.1-181.1c5.2-5.2,9.2-11.4,11.8-18c18.2,5.1,35.9,7.8,51.5,7.7   c38.6-0.2,51.4-17.1,55.6-27.2c4.2-10,7.2-31-19.9-58.6c-0.3-0.3-0.6-0.6-0.9-0.9c-16.8-16.8-41.2-32.3-68.9-43.8   c-5.1-2.1-10.2-4-15.2-5.8v-0.3c-0.3-22.2-18.2-40.1-40.4-40.4l-108.5-1.5c-14.4-0.2-28.2,5.4-38.3,15.6l-181.2,181.1   c-14.6,14.6-14.6,38.3,0,52.9L131.35,422.969z M270.95,117.869c12.1-12.1,31.7-12.1,43.8,0c7.2,7.2,10.1,17.1,8.7,26.4   c11.9,8.4,26.1,16.2,41.3,22.5c5.4,2.2,10.6,4.2,15.6,5.9l-0.6-43.6c0.9,0.4,1.7,0.7,2.6,1.1c23.7,9.9,45,23.3,58.7,37   c0.2,0.2,0.4,0.4,0.6,0.6c13,13.3,14.4,21.8,13.3,24.4c-3.4,8.1-39.9,15.3-95.3-7.8c-16.2-6.8-31.4-15.2-43.7-24.3   c-0.4,0.5-0.9,1-1.3,1.5c-12.1,12.1-31.7,12.1-43.8,0C258.85,149.569,258.85,129.969,270.95,117.869z" />
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+              </svg>
+              <h2 class="mdl-card__title-text">سیستم تیکت</h2>
+            </div>
+            <div class="mdl-card__actions mdl-card--border">
+              <div class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect text-light">
+                IT نرم افزار خدمات
+              </div>
+            </div>
+          </a>
+          </div>
+          <div class="col-lg-3 col-sm-6  px-2">
+          <a href="http://it.irtoyaco.com:84/" target="_blank" class="demo-card-square mdl-card mdl-shadow--2dp w-100 card-shadow">
+            <div class="mdl-card__title mdl-card--expand ">
+              <img src="./images/customs-agent.svg" width="80">
+              <h2 class="mdl-card__title-text align-self-center mr-4">CIF</h2>
+            </div>
+            <div class="mdl-card__actions mdl-card--border">
+              <div data-toggle="tooltip" title="نرم افزار مدیریت خدمات گارانتی" data-placement="top"
+                class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect text-light">
+                نرم افزار cif
+            </div>
+            </div>
+          </a>
+          </div>
+          <div class="col-lg-3 col-sm-6  px-2">
+          <a href="http://intranet.irtoyaco.com/SitePages/Home.aspx" target="_blank" class="demo-card-square mdl-card mdl-shadow--2dp w-100 card-shadow">
+            <div class="mdl-card__title mdl-card--expand ">
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
+                id="Layer_1" x="0px" y="0px" width="100" viewBox="0 0 960 960" enable-background="new 0 0 960 960"
+                xml:space="preserve">
+                <g>
+                  <g>
+                    <path fill="#407776"
+                      d="M940.343,755.734c0,3.688-0.235,11.007-0.235,11.007s-79.085-61.464-189.148-94.011    c-39.637-11.719-83.293-19.694-128.717-19.694c-45.119,0-88.432,7.706-127.779,19.077    c-110.768,32.016-190.148,93.088-190.148,93.088s-0.172-6.298-0.172-9.468c0-157.066,142.419-284.393,318.1-284.393    C797.924,471.341,940.343,598.668,940.343,755.734z" />
+                    <path fill="#234141"
+                      d="M778.656,281.747c0,87.549-70.976,158.521-158.521,158.521c-87.547,0-158.521-70.971-158.521-158.521    c0-87.549,70.974-158.521,158.521-158.521C707.681,123.226,778.656,194.198,778.656,281.747z" />
+                  </g>
+                  <g>
+                    <path fill="#407776"
+                      d="M372.474,530.809c-0.634-0.144-30.51,21.85-49.672,50.2c-19.678,29.118-31.564,54.471-32.234,54.428    c-6.348-0.414-30.618-2.809-37.067-2.809c-33.154,0-64.982,5.663-93.896,14.019c-81.396,23.527-139.728,68.405-139.728,68.405    s-0.126-4.629-0.126-6.956c0-115.421,104.654-208.984,233.751-208.984c35.077,0.003,68.354,6.909,98.213,19.287" />
+                    <path fill="#234141"
+                      d="M368.441,359.791c0,64.333-52.155,116.485-116.486,116.485c-64.334,0-116.488-52.151-116.488-116.485    c0-64.334,52.154-116.487,116.488-116.487C316.286,243.304,368.441,295.457,368.441,359.791z" />
+                  </g>
+                </g>
+              </svg>
+              <h2 class="mdl-card__title-text">پرتال سازمانی</h2>
+            </div>
+            <div class="mdl-card__actions mdl-card--border">
+              <div class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect text-light">
+                ورود به پرتال
+              </div>
+            </div>
+          </a>
+          </div>
+          <div class="col-lg-3 col-sm-6  px-2">
+          <a href="http://it.irtoyaco.com:83/" target="_blank" class="demo-card-square mdl-card mdl-shadow--2dp w-100 card-shadow">
+            <div class="mdl-card__title mdl-card--expand ">
+              <img src="images/logo.png" width="90" />
+              <h2 class="mdl-card__title-text align-self-center">raytools</h2>
+            </div>
+            <div class="mdl-card__actions mdl-card--border">
+              <div class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect text-light">
+                نرم افزار مدیریت رایورز
+              </div>
+            </div>
+          </a>
+          </div>
+        </div>
+        <div class="row w-100">
+          <div class="col-lg-3 col-sm-6  px-2">
+          <a href="http://mobile.irtoya.com/Login.aspx" target="_blank" class="demo-card-square mdl-card mdl-shadow--2dp w-100 card-shadow">
+            <div class="mdl-card__title mdl-card--expand ">
+                <svg aria-hidden="true" style="width: 60px;
+                color: rgb(255, 127, 80);" focusable="false" data-prefix="fas" data-icon="mobile-alt" class="svg-inline--fa fa-mobile-alt fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M272 0H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h224c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48zM160 480c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm112-108c0 6.6-5.4 12-12 12H60c-6.6 0-12-5.4-12-12V60c0-6.6 5.4-12 12-12h200c6.6 0 12 5.4 12 12v312z"></path></svg>
+              <h2 class="mdl-card__title-text align-self-center">نرم افزار موبایل</h2>
+            </div>
+            <div class="mdl-card__actions mdl-card--border">
+              <div data-toggle="tooltip" title="سیستم مدیریت اطلاعات نرم افزار موبایل" data-placement="top"
+                class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect text-light text-light">نرم
+                افزار موبایل</div>
+            </div>
+          </a>
+          </div>
+          <div class="col-lg-3 col-sm-6  px-2">
+          <a href="http://it.irtoyaco.com:2021/" target="_blank" class="demo-card-square mdl-card mdl-shadow--2dp w-100 card-shadow">
+            <div class="mdl-card__title mdl-card--expand ">
+              <img src="./images/dashboard.png" width="100">
+              <h2 class="mdl-card__title-text">داشبورد مدیریتی</h2>
+            </div>
+            <div class="mdl-card__actions mdl-card--border">
+              <div class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect text-light">
+                نرم افزار گزارشات هلدینگ
+              </div>
+            </div>
+          </a>
+          </div>
+          <div class="col-lg-3 col-sm-6  px-2">
+          <a href="http://internet.irtoyaco.com:8090/" target="_blank" class="demo-card-square mdl-card mdl-shadow--2dp w-100 card-shadow">
+            <div class="mdl-card__title mdl-card--expand ">
+                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="id-card-alt" class="svg-inline--fa fa-id-card-alt fa-w-18 text-info" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M528 64H384v96H192V64H48C21.5 64 0 85.5 0 112v352c0 26.5 21.5 48 48 48h480c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zM288 224c35.3 0 64 28.7 64 64s-28.7 64-64 64-64-28.7-64-64 28.7-64 64-64zm93.3 224H194.7c-10.4 0-18.8-10-15.6-19.8 8.3-25.6 32.4-44.2 60.9-44.2h8.2c12.3 5.1 25.7 8 39.8 8s27.6-2.9 39.8-8h8.2c28.4 0 52.5 18.5 60.9 44.2 3.2 9.8-5.2 19.8-15.6 19.8zM352 32c0-17.7-14.3-32-32-32h-64c-17.7 0-32 14.3-32 32v96h128V32z"></path></svg>
+              <h2 class="mdl-card__title-text align-self-center ml-2">نرم افزار اکانت اینترنت</h2>
+            </div>
+            <div class="mdl-card__actions mdl-card--border">
+              <div data-toggle="tooltip" title="نرم افزار مدیریت اکانت اینترنت"
+                class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect text-light">
+                اکانت اینترنت
+            </div>
+            </div>
+          </a>
+          </div>
+          <div class="col-lg-3 col-sm-6 px-2">
+          <a href="http://crmapp/Irtoya/main.aspx#824995850" target="_blank" class="demo-card-square mdl-card mdl-shadow--2dp w-100 card-shadow">
+            <div class="mdl-card__title mdl-card--expand ">
+                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="hands-helping" class="svg-inline--fa fa-hands-helping fa-w-20 text-success" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M488 192H336v56c0 39.7-32.3 72-72 72s-72-32.3-72-72V126.4l-64.9 39C107.8 176.9 96 197.8 96 220.2v47.3l-80 46.2C.7 322.5-4.6 342.1 4.3 357.4l80 138.6c8.8 15.3 28.4 20.5 43.7 11.7L231.4 448H368c35.3 0 64-28.7 64-64h16c17.7 0 32-14.3 32-32v-64h8c13.3 0 24-10.7 24-24v-48c0-13.3-10.7-24-24-24zm147.7-37.4L555.7 16C546.9.7 527.3-4.5 512 4.3L408.6 64H306.4c-12 0-23.7 3.4-33.9 9.7L239 94.6c-9.4 5.8-15 16.1-15 27.1V248c0 22.1 17.9 40 40 40s40-17.9 40-40v-88h184c30.9 0 56 25.1 56 56v28.5l80-46.2c15.3-8.9 20.5-28.4 11.7-43.7z"></path></svg>
+              <h2 class="mdl-card__title-text">نرم افزار امور مشتریان</h2>
+            </div>
+            <div class="mdl-card__actions mdl-card--border">
+              <div class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect text-light">
+                مدیریت شکایات مشتریان
+              </div>
+            </div>
+          </a>
+          </div>
+        </div>
+        <div class="row my-3 w-100">
+            <div class="col-lg-3 col-sm-6  px-2">
+          <a href="http://sql-srv.irtoyaco.com:9876" target="_blank" class="demo-card-square mdl-card mdl-shadow--2dp w-100 card-shadow">
+            <div class="mdl-card__title mdl-card--expand ">
+                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="tasks" class="svg-inline--fa fa-tasks fa-w-16 text-warning" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M208 132h288c8.8 0 16-7.2 16-16V76c0-8.8-7.2-16-16-16H208c-8.8 0-16 7.2-16 16v40c0 8.8 7.2 16 16 16zm0 160h288c8.8 0 16-7.2 16-16v-40c0-8.8-7.2-16-16-16H208c-8.8 0-16 7.2-16 16v40c0 8.8 7.2 16 16 16zm0 160h288c8.8 0 16-7.2 16-16v-40c0-8.8-7.2-16-16-16H208c-8.8 0-16 7.2-16 16v40c0 8.8 7.2 16 16 16zM64 368c-26.5 0-48.6 21.5-48.6 48s22.1 48 48.6 48 48-21.5 48-48-21.5-48-48-48zm92.5-299l-72.2 72.2-15.6 15.6c-4.7 4.7-12.9 4.7-17.6 0L3.5 109.4c-4.7-4.7-4.7-12.3 0-17l15.7-15.7c4.7-4.7 12.3-4.7 17 0l22.7 22.1 63.7-63.3c4.7-4.7 12.3-4.7 17 0l17 16.5c4.6 4.7 4.6 12.3-.1 17zm0 159.6l-72.2 72.2-15.7 15.7c-4.7 4.7-12.9 4.7-17.6 0L3.5 269c-4.7-4.7-4.7-12.3 0-17l15.7-15.7c4.7-4.7 12.3-4.7 17 0l22.7 22.1 63.7-63.7c4.7-4.7 12.3-4.7 17 0l17 17c4.6 4.6 4.6 12.2-.1 16.9z"></path></svg>
+              <h2 class="mdl-card__title-text">نرم افزار کنترل تردد</h2>
+            </div>
+            <div class="mdl-card__actions mdl-card--border">
+              <div class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect text-light">
+                مدیریت تردد کارکنان
+              </div>
+            </div>
+          </a>
+          </div>
+          <div class="col-lg-3 col-sm-6  px-2">
+          <a href="http://eoffice.irtoyaco.com/reports/" target="_blank" class="demo-card-square mdl-card mdl-shadow--2dp w-100 card-shadow">
+            <div class="mdl-card__title mdl-card--expand ">
+                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="money-check-alt" class="svg-inline--fa fa-money-check-alt fa-w-20 text-success" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M608 32H32C14.33 32 0 46.33 0 64v384c0 17.67 14.33 32 32 32h576c17.67 0 32-14.33 32-32V64c0-17.67-14.33-32-32-32zM176 327.88V344c0 4.42-3.58 8-8 8h-16c-4.42 0-8-3.58-8-8v-16.29c-11.29-.58-22.27-4.52-31.37-11.35-3.9-2.93-4.1-8.77-.57-12.14l11.75-11.21c2.77-2.64 6.89-2.76 10.13-.73 3.87 2.42 8.26 3.72 12.82 3.72h28.11c6.5 0 11.8-5.92 11.8-13.19 0-5.95-3.61-11.19-8.77-12.73l-45-13.5c-18.59-5.58-31.58-23.42-31.58-43.39 0-24.52 19.05-44.44 42.67-45.07V152c0-4.42 3.58-8 8-8h16c4.42 0 8 3.58 8 8v16.29c11.29.58 22.27 4.51 31.37 11.35 3.9 2.93 4.1 8.77.57 12.14l-11.75 11.21c-2.77 2.64-6.89 2.76-10.13.73-3.87-2.43-8.26-3.72-12.82-3.72h-28.11c-6.5 0-11.8 5.92-11.8 13.19 0 5.95 3.61 11.19 8.77 12.73l45 13.5c18.59 5.58 31.58 23.42 31.58 43.39 0 24.53-19.05 44.44-42.67 45.07zM416 312c0 4.42-3.58 8-8 8H296c-4.42 0-8-3.58-8-8v-16c0-4.42 3.58-8 8-8h112c4.42 0 8 3.58 8 8v16zm160 0c0 4.42-3.58 8-8 8h-80c-4.42 0-8-3.58-8-8v-16c0-4.42 3.58-8 8-8h80c4.42 0 8 3.58 8 8v16zm0-96c0 4.42-3.58 8-8 8H296c-4.42 0-8-3.58-8-8v-16c0-4.42 3.58-8 8-8h272c4.42 0 8 3.58 8 8v16z"></path></svg>
+              <h2 class="mdl-card__title-text align-self-center">گزارشات حقوق و دستمزد</h2>
+            </div>
+            <div class="mdl-card__actions mdl-card--border">
+              <div class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect text-light">
+                گزارش دستمزد چارگون
+              </div>
+            </div>
+          </a>
+          </div>
+          <div class="col-lg-3 col-sm-6  px-2">
+          <a href="http://crm-bi.irtoyaco.com/reportsbi" target="_blank" class="demo-card-square mdl-card mdl-shadow--2dp w-100 card-shadow">
+            <div class="mdl-card__title mdl-card--expand ">
+                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chart-area" class="svg-inline--fa fa-chart-area fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M500 384c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12H12c-6.6 0-12-5.4-12-12V76c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v308h436zM372.7 159.5L288 216l-85.3-113.7c-5.1-6.8-15.5-6.3-19.9 1L96 248v104h384l-89.9-187.8c-3.2-6.5-11.4-8.7-17.4-4.7z"></path></svg>
+              <h2 class="mdl-card__title-text align-self-center">گزارشات امور مشتریان</h2>
+            </div>
+            <div class="mdl-card__actions mdl-card--border">
+              <div data-toggle="tooltip" data-placement="top" title="امور  مشتریان Power BI گزارشات  نرم افزار"
+                class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect text-light">
+                power bi نرم افزار
+            </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-3 col-sm-6  px-2">
+          <a href="http://web-app:8081/login.aspx" target="_blank" class="demo-card-square mdl-card mdl-shadow--2dp w-100 card-shadow">
+            <div class="mdl-card__title mdl-card--expand ">
+                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="car" class="svg-inline--fa fa-car fa-w-16 text-danger" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M499.99 176h-59.87l-16.64-41.6C406.38 91.63 365.57 64 319.5 64h-127c-46.06 0-86.88 27.63-103.99 70.4L71.87 176H12.01C4.2 176-1.53 183.34.37 190.91l6 24C7.7 220.25 12.5 224 18.01 224h20.07C24.65 235.73 16 252.78 16 272v48c0 16.12 6.16 30.67 16 41.93V416c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32v-32h256v32c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32v-54.07c9.84-11.25 16-25.8 16-41.93v-48c0-19.22-8.65-36.27-22.07-48H494c5.51 0 10.31-3.75 11.64-9.09l6-24c1.89-7.57-3.84-14.91-11.65-14.91zm-352.06-17.83c7.29-18.22 24.94-30.17 44.57-30.17h127c19.63 0 37.28 11.95 44.57 30.17L384 208H128l19.93-49.83zM96 319.8c-19.2 0-32-12.76-32-31.9S76.8 256 96 256s48 28.71 48 47.85-28.8 15.95-48 15.95zm320 0c-19.2 0-48 3.19-48-15.95S396.8 256 416 256s32 12.76 32 31.9-12.8 31.9-32 31.9z"></path></svg>
+              <h2 class="mdl-card__title-text">نرم افزار تحویل خودرو</h2>
+            </div>
+            <div class="mdl-card__actions mdl-card--border">
+              <div class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect text-light">
+                ورود و خروج خودرو
+              </div>
+            </div>
+          </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-8 offset-1 main-soft content" style="padding: 4.5rem 0; background-color:rgba(0,0,0,.5);">
+        <h3 class="text-light w-100 py-2" style="padding-right: 100px; text-align: right;padding-right: 100px; text-align: right;">اخبار و اطلاعیه</h3>
+        <div class="outer">
+          <ul class="inner w-75 h-75 m-auto pl-3 text-white" style="height:307px !important;">
+          <li>
+            <h4 class="text-align-rr">نرم افزار</h4>
+            <h6 class="text-align-rw">پیاده سازی سایت فروشگاه اینترنتی قطعات</h6>
+          </li>
+          <li>
+              <h4 class="text-align-rr">نرم افزار</h4>
+              <h6 class="text-align-rw">پیاده سازی پرتال استخدامی در سایت ایرتویا</h6>
+            </li>
+            <li>
+                <h4 class="text-align-rr">نرم افزار</h4>
+                <h6 class="text-align-rw">تحلیل و پیاده سازی نرم افزار بودجه هلدینگ</h6>
+              </li>
+              <li>
+                  <h4 class="text-align-rr">نرم افزار</h4>
+                  <h6 class="text-align-rw">راه اندازی نرم افزار تحت وب سون سافت در نگین خودرو و سراسر نمایندگی ها</h6>
+                </li>
+                <li>
+                    <h4 class="text-align-rr">نرم افزار</h4>
+                    <h6 class="text-align-rw">پیاده سازی سایت خودروهای دست دوم(تراست خودرو)</h6>
+                  </li>
+                  <li>
+                      <h4 class="text-align-rr">نرم افزار</h4>
+                      <h6 class="text-align-rw">راه اندازی سایت ایرتویا کیش</h6>
+                    </li>
+                    <li>
+                        <h4 class="text-align-rr">نرم افزار</h4>
+                        <h6 class="text-align-rw">برگزاری جلسات مدون با گروه تولید سیستم ERP جدید رایورز( خدمات پس از فروش پروه ناصح)</h6>
+                      </li>
+                      <li>
+                          <h4 class="text-align-rr">سخت افزار</h4>
+                          <h6 class="text-align-rw">جمع آوری تجهیزات و جابه جایی دیتاسنتر پارک وی</h6>
+                        </li>
+                        <li>
+                            <h4 class="text-align-rr">سخت افزار</h4>
+                            <h6 class="text-align-rw">آماده سازی و استقرار پرسنل نگین خودرو در ساختمان اقدسیه</h6>
+                          </li>
+                          <li>
+                              <h4 class="text-align-rr">شعب</h4>
+                              <h6 class="text-align-rw">اجرای کامل شبکه سیستم دوربین و اتاق سرور آرین خودرو پارس (جیلی) در ساختمان پاسداران</h6>
+                            </li>
+                            <li>
+                                <h4 class="text-align-rr">شعب</h4>
+                                <h6 class="text-align-rw">جابه جایی شعب تبریز و شریعتی و جمع آوری شعب ملک و نیروهوایی نگین خودرو</h6>
+                              </li>
+                              <li>
+                                  <h4 class="text-align-rr">شبکه</h4>
+                                  <h6 class="text-align-rw">راه اندازی شبکه و استقرار کامل شرکتهای تراست خودرو، البرز موتور، شهربازی، برج آناهید، </h6>
+                                </li>
+                                <li>
+                                    <h4 class="text-align-rr">مخابرات</h4>
+                                    <h6 class="text-align-rw">پیاده سازی سایت فروشگاه اینترنتی قطعات</h6>
+                                  </li>
+                                  <li>
+                                      <h4 class="text-align-rr">نرم افزار</h4>
+                                      <h6 class="text-align-rw">توسعه نرم افزار تعمیرگاه( گواهی ارزیابی، فنی، بدنه و گارانتی)</h6>
+                                    </li>
+                                    <li>
+                                        <h4 class="text-align-rr">نرم افزار</h4>
+                                        <h6 class="text-align-rw">پیاده سازی سامانه تست درایو ایرتویا و نگین خودرو</h6>
+                                      </li>
+                  
+        </ul>
+        </div>
+      </div>
+      <div class="col-md-8 offset-1 main-soft h-100 content"
+        style="padding: 3.5rem 0; background-color:rgba(0,0,0,.5)">
+        <h3 class="text-light w-100" style="padding-right: 100px; text-align: right;">تماس با ما</h3>
+        <div class="w-75 m-auto pl-3"
+          style="align-items: center; background-color:rgba(107, 107, 107, 0.3843137254901961);">
+          <form action="#" class="w-75" style="position: relative;">
+            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label w-50" style="position: relative; left: 40%;">
+              <input class="mdl-textfield__input" type="text">
+              <label class="mdl-textfield__label font1" style="color: #fff; text-align:center;">نام و نام
+                خانوادگی</label>
+            </div>
+            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label w-50" style="position: relative; left: 40%;">
+              <input class="mdl-textfield__input" type="email">
+              <label class="mdl-textfield__label font1" style="color: #fff; text-align:center;">ایمیل</label>
+            </div>
+            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label w-50" style="position: relative; left: 40%;">
+              <input class="mdl-textfield__input" type="text">
+              <label class="mdl-textfield__label font1" style="color: #fff; text-align:center;">موضوع پیام</label>
+            </div>
+            <div class="mdl-textfield mdl-js-textfield w-50" style="position: relative; left: 40%;">
+              <textarea class="mdl-textfield__input" type="text" rows="3" style="height: 5rem; resize:none;"></textarea>
+              <label class="mdl-textfield__label font1" style="color: #fff; text-align:center;">متن پیام</label>
+            </div>
+          </form>
+          <button class="btn btn-danger w-25 font1" style="position: relative; left: 35%;">
+            ارسال پیام
+          </button>
+        </div>
+      </div>
+      <ul class="sideMainMenu col-md-2 my-3 mx-5 align-self-center vertical-center float-right">
+        <li href="#"
+          class="card card-bshadow my-3 rounded-lg card-shadow inside-link mdl-button mdl-js-button mdl-js-ripple-effect" style="height:67px; padding: 22px !important;">
+          <div class="card-body">
+            <h4 class="text-white shasow-hover" align="right" style="z-index:1; font-size:20px; white-space: nowrap">نرم افزار های کاربردی
+            </h4>
+          </div>
+        </li>
+        <li href="#"
+          class="card card-bshadow my-3 rounded-lg card-shadow inside-link mdl-button mdl-js-button mdl-js-ripple-effect"  style="height:67px; padding: 22px !important;">
+          <div class="card-body">
+            <h4 class="text-white shasow-hover" align="right" style="font-size:20px;">سایر نرم افزار ها</h4>
+          </div>
+        </li>
+        <li href="#"
+          class="card card-bshadow my-3 rounded-lg card-shadow inside-link mdl-button mdl-js-button mdl-js-ripple-effect"  style="height:67px; padding: 22px !important;">
+          <div class="card-body">
+            <h4 class="text-white shasow-hover" align="right" style="font-size:20px;">اخبار و اطلاعیه</h4>
+          </div>
+        </li>
+        <li href="#"
+          class="card card-bshadow my-3 rounded-lg card-shadow inside-link mdl-button mdl-js-button mdl-js-ripple-effect"  style="height:67px; padding: 22px !important;">
+          <div class="card-body">
+            <h4 class="text-white shasow-hover" align="right" style="z-index:1; font-size:20px;">تماس با ما</h4>
+          </div>
+        </li>
+        <div class="time-disMiss" style="font-size:30px; cursor: pointer; display:none; position:fixed; top: 0;">&times;</div>
+      </ul>
+    </div>
+  </div>
+</body>
+
+</html>
